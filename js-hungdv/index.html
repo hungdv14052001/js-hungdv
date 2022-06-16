@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <!--Bài 1: Phần Cơ Bản-->
+    <h1>Bài 1: Phần Cơ Bản</h1>
+    <input type="button" id="btnClickMe" value="Click Me">
+    <!--Bài 2: Vòng Lặp-->
+    <h1>Bài 2: Vòng Lặp</h1>
+    <input type="button" id="btnPrintMatrix" value="In Ma Trận">
+    <br/>
+    <!--Bài 3: Events-->
+    <h1>Bài 3: Events</h1>
+    <h4>VD1:</h4>
+    <input type="text" id="inputMessage" value="" onkeyup="show_Result()"/>
+    <div id="result"></div>
+    <h4>VD2:</h4>
+    <h3>Hãy copy dòng chữ dưới đây:</h3>
+    <div oncopy="show_Message()">Chào mừng các bạn đến với Devfast</div>
+    <h4>VD3:</h4>
+    a: <input type="text" id="inputA" value="" onkeyup="tinh()"/>
+    b: <input type="text" id="inputB" value="" onkeyup="tinh()"/>
+    Kết quả: <input type="text" id="result3" value=""/>
+    <!--Bài 7: BOM-->
+    <h1>Bài 7: BOM</h1>
+    <br/>
+    <br/>
+    <h4>Window:</h4>
+    <a href="#" onclick="return openWindow()">Open website của Công ty Devfast</a>
+    <br/>
+    <br/>
+    <a href="#" onclick="return closeWindow()">Close website của Công ty Devfast</a>
+    <br/>
+    <br/>
+    <a href="#" onclick="return moveWindow()">move website của Công ty Devfast</a>
+    <br/>
+    <br/>
+    <a href="#" onclick="return resizeWindow()">resize website của Công ty Devfast</a>
+    <br/>
+    <br/>
+    <input type="button" id="btnGetUrl" value="get Url">
+    <br/>
+    <br/>
+    <h4>Location:</h4>
+    <br/>
+    <input type="button" id="btnReload" value="Reload">
+    <br/>
+    <br/>
+    <button type="button" id="btnReplace">Replace page()</button>
+    <button type="button" id="btnHrefPage">location.href</button>
+    <br/>
+    <br/>
+    <button type="button" id="btnLoadNew">Load New Page()</button>
+</body>
+<script language="javascript" src="./js/Bai01-PhanCoBan.js"></script>
+<script language="javascript" src="./js/Bai02-VongLap.js"></script>
+<script language="javascript" src="./js/Bai03-Events.js"></script>
+<script language="javascript" src="./js/Bai06-Object.js"></script>
+<script language="javascript" src="./js/Bai07-BOM.js"></script>
+<script language="javascript" src="./js/Bai12-CallAndApply.js"></script>
+</html>
